@@ -189,3 +189,10 @@ img.status-icon {
 img.add {
     width: 20px;
 }
+
+
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
