@@ -114,6 +114,7 @@ section.inner-content {
     border-radius: 6px;
     box-shadow: 0px 0px 5px 0px #d1d1d1;
     margin-right: 20px;
+    position: relative;
 }
 
 /* .nav-tabs .nav-link {
@@ -196,3 +197,17 @@ img.add {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
 }
+
+/* a.nav-link.active::after{
+    position: absolute;
+    content: "";
+    width: 3;
+    height: 3;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 5px solid #4F4FFF;
+    margin: 0 auto;
+    top: 80px;
+    text-align: center;
+    left: 53px;
+} */
